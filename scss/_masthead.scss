@@ -35,3 +35,10 @@ header.masthead {
     }
   }
 }
+
+.social-icon {
+  margin-left: 1rem;
+}
+.social-icon:hover {
+  color: lighten($primary, 10%);
+}
