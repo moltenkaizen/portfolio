@@ -190,6 +190,10 @@ header.masthead p {
   font-weight: 300;
 }
 
+header.masthead i:hover {
+  color: #d33311;
+}
+
 @media (min-width: 768px) {
   header.masthead p {
     font-size: 1.15rem;
@@ -206,20 +210,18 @@ header.masthead p {
   header.masthead h1 {
     font-size: 3rem;
   }
+  header.masthead i {
+    margin-left: .3rem;
+  }
 }
 
 @media (min-width: 1200px) {
   header.masthead h1 {
     font-size: 4rem;
   }
-}
-
-.social-icon {
-  margin-left: 1rem;
-}
-
-.social-icon:hover {
-  color: #f4876f;
+  header.masthead i {
+    margin-left: .3rem;
+  }
 }
 
 .service-box {
